@@ -1,0 +1,49 @@
+[
+    {
+        "id": "48feb7d8a567f7a7",
+        "type": "ui_gauge",
+        "z": "64f52903c284b545",
+        "name": "",
+        "group": "28333041e15c04a0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humidity Data",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 860,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "28333041e15c04a0",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "2ff36ff5.bdc628",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ff36ff5.bdc628",
+        "type": "ui_tab",
+        "name": "Studio_control",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
